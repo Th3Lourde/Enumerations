@@ -1,0 +1,9 @@
+Intro: The following is an a summary of the different techniques and methods that are often applied when performing recon on a target system/network. The sources for these techniques are one of the following: the internet, Advanced Persistent Threat Hacking: The art of breaking into any organization, and the OSCP course materials.
+
+Scenario:
+You have hacked/been granted access to a target's network, now what, what do you do?
+1) Figure out what devices are reachable via the internet
+2) Banner Grabbing, OS, Services, etc...0
+
+Implementation:
+While one might perform a whois on a target domain (p.82 APT), this scenario is where we already have access to the target's network and do not currently have a domain name to query. The first step actually seems to be to identify all of the subdomains of a given network (p.107 APT). Since this guide is currently for OSCP, I have a general idea of how the subnets are set up (there are three total) and will happily start with cracking one box at a time :)

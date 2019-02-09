@@ -1,0 +1,6 @@
+# Nmap 7.60 scan initiated Fri Feb  8 08:27:39 2019 as: nmap -sS -oA weak.standard -p- -A -T5 10.11.0.1
+Nmap scan report for 10.11.0.1
+Host is up (0.028s latency).
+Skipping host 10.11.0.1 due to host timeout
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb  8 08:42:39 2019 -- 1 IP address (1 host up) scanned in 900.57 seconds
