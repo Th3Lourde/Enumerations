@@ -24,7 +24,7 @@ if [ "$have_args" = "1" ]
 
     RESULT=$(nmap -sP -PS -n $1 |grep 'for' | cut -b 22-31)
 	#This clears whatever was previously in tcp.txt
-	#echo '' > tcp.txt
+	echo 'foo' > tcp.txt
 
 	# Multiline comment
 
