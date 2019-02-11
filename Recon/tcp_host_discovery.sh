@@ -31,7 +31,7 @@ if [ "$have_args" = "1" ]
 	
 	for item in $RESULT
 	do
-		echo "SYN Scan: $item"
+		#echo "SYN Scan: $item"
 		echo "$item" >> tcp.txt
 	done
 
